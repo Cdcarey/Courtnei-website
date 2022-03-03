@@ -1,0 +1,63 @@
+/*welcome page design*/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar li {
+    display: inline;
+    float: right;
+    list-style: none;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 60px;
+    width: 25%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #f08080;
+  }
+  
+  .welcome {
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  
+  .description p {
+    font-size: 3rem;
+  }
+  
+  .info {
+    width: 100%;
+    background-color: #f08080;
+    align-items: flex-end;
+    font-family: Serif, garamond
+  }
+  
+  .info ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  
+  .info li {
+    display: inline;
+    margin: 0 1em;
+    align-items: flex-end;
+  }

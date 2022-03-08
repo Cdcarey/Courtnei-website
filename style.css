@@ -1,63 +1,128 @@
 /*welcome page design*/
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .navbar li {
-    display: inline;
-    float: right;
-    list-style: none;
-  }
-  
-  .navbar a {
-    display: block;
-    padding: 60px;
-    width: 25%;
-    text-align: center;
-    font-size: 2rem;
-    background-color: #f08080;
-  }
-  
-  .welcome {
-    padding: 2rem;
-    font-size: 3rem;
-  }
-  
-  .description p {
-    font-size: 3rem;
-  }
-  
-  .info {
-    width: 100%;
-    background-color: #f08080;
-    align-items: flex-end;
-    font-family: Serif, garamond
-  }
-  
-  .info ul{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-  }
-  
-  .info li {
-    display: inline;
-    margin: 0 1em;
-    align-items: flex-end;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  width:100%;
+  height:100px;
+  background-color:#DEB887;
+  border-top:5px solid;
+  border-top-style: solid;
+  border-top-color:#DEB887;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+  list-style: center;
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  display: inline;
+  border-width: 10px 20px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #DEB887;
+}
+
+.welcome h1 {
+  padding: 2rem;
+  font-size: 7rem;
+}
+
+.welcome p{
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.salons p {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: right;
+  color: white;
+}
+
+.salons h3 {
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: right;
+  color: white;
+}
+
+.salons {
+  height: 450px;
+  width: 1200px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  url(https://th.bing.com/th/id/R.005e18581cb80e51cb842934b0859072?rik=SUbqIhNeRZypog&riu=http%3a%2f%2fwww.beautylounge3000.com%2fnew-site%2fimages%2fblog%2fsalon%2fblack-hair-salon.jpg&ehk=FoIf0v41ovqa1q%2bMhJV4obQty7GDvMos1xuo2ufHkUg%3d&risl=&pid=ImgRaw&r=0); 
+}
+
+.stores h3{
+  padding: 2rem;
+  text-align: left;
+  font-size: 3rem;
+  color: white;
+}
+
+.stores p {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+}
+
+.stores {
+  height: 450px;
+  width: 1200px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  url(https://th.bing.com/th/id/R.dcc624bf457ecdf8457f8c386c77b810?rik=gxvumc0PNY91Kw&riu=http%3a%2f%2fwww.slausonsupermallinc.com%2fmap-images-new%2fA-05.jpg&ehk=tJTHCNblNu08cMcHgHIHOKrrRgaC%2fQD7EVhjj5eKCjo%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.stylists p{
+  padding: 2rem;
+  text-align: right;
+}
+
+.stylists h3 {
+  text-align: right;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.stylists img {
+  height: 450px;
+  width: 800px;
+}
+
+.inquiry h3 {
+  padding: 2rem;
+  text-align: left;
+  font-size: 3rem;
+}
+
+.inquiry p {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.info {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  border-width: 10px 20px;
+  background-color: #DEB887;
+}
+
+.info p {
+  font-size: 1rem;
+}

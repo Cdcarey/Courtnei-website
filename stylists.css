@@ -1,0 +1,66 @@
+:root{
+    padding: 0;
+    margin:0;
+}
+
+.menu {
+  width:100%;
+  height:100px;
+  background-color:#DEB887;
+  border-top:5px solid;
+  border-top-style: solid;
+  border-top-color:#DEB887;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+  list-style: center;
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  display: inline;
+  border-width: 10px 20px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #DEB887;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #D2691E;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color:#B22222;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }

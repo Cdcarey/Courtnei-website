@@ -11,15 +11,15 @@ a {
 }
 
 .menu {
-  width:100%;
-  height:100px;
-  background-color:#DEB887;
-  border-top:5px solid;
+  width: 100%;
+  height: 100px;
+  background-color: #deb887;
+  border-top: 5px solid;
   border-top-style: solid;
-  border-top-color:#DEB887;
+  border-top-color: #deb887;
 }
 
-.menu ul li{
+.menu ul li {
   list-style-type: none;
   display: inline-flex;
   float: right;
@@ -31,7 +31,7 @@ a {
   border-width: 10px 20px;
   text-align: center;
   font-size: 2rem;
-  background-color: #DEB887;
+  background-color: #deb887;
 }
 
 .welcome h1 {
@@ -39,7 +39,7 @@ a {
   font-size: 7rem;
 }
 
-.welcome p{
+.welcome p {
   padding: 2rem;
   font-size: 3rem;
   text-align: left;
@@ -56,6 +56,7 @@ a {
   padding: 2rem;
   font-size: 3rem;
   text-align: right;
+  text-decoration: none;
   color: white;
 }
 
@@ -63,44 +64,49 @@ a {
   height: 450px;
   width: 1200px;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-  url(https://th.bing.com/th/id/R.005e18581cb80e51cb842934b0859072?rik=SUbqIhNeRZypog&riu=http%3a%2f%2fwww.beautylounge3000.com%2fnew-site%2fimages%2fblog%2fsalon%2fblack-hair-salon.jpg&ehk=FoIf0v41ovqa1q%2bMhJV4obQty7GDvMos1xuo2ufHkUg%3d&risl=&pid=ImgRaw&r=0); 
+    url(https://th.bing.com/th/id/R.005e18581cb80e51cb842934b0859072?rik=SUbqIhNeRZypog&riu=http%3a%2f%2fwww.beautylounge3000.com%2fnew-site%2fimages%2fblog%2fsalon%2fblack-hair-salon.jpg&ehk=FoIf0v41ovqa1q%2bMhJV4obQty7GDvMos1xuo2ufHkUg%3d&risl=&pid=ImgRaw&r=0);
 }
 
-.stores h3{
+.stores1 h3 {
   padding: 2rem;
   text-align: left;
   font-size: 3rem;
   color: white;
 }
 
-.stores p {
+.stores1 p {
   padding: 2rem;
   font-size: 2rem;
   text-align: left;
   color: white;
 }
 
-.stores {
+.stores1 {
   height: 450px;
   width: 1200px;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-  url(https://th.bing.com/th/id/R.dcc624bf457ecdf8457f8c386c77b810?rik=gxvumc0PNY91Kw&riu=http%3a%2f%2fwww.slausonsupermallinc.com%2fmap-images-new%2fA-05.jpg&ehk=tJTHCNblNu08cMcHgHIHOKrrRgaC%2fQD7EVhjj5eKCjo%3d&risl=&pid=ImgRaw&r=0);
+    url(https://th.bing.com/th/id/R.dcc624bf457ecdf8457f8c386c77b810?rik=gxvumc0PNY91Kw&riu=http%3a%2f%2fwww.slausonsupermallinc.com%2fmap-images-new%2fA-05.jpg&ehk=tJTHCNblNu08cMcHgHIHOKrrRgaC%2fQD7EVhjj5eKCjo%3d&risl=&pid=ImgRaw&r=0);
 }
 
-.stylists p{
+.stylists p {
   padding: 2rem;
+  font-size: 2rem;
   text-align: right;
+  color: white;
 }
 
 .stylists h3 {
-  text-align: right;
   padding: 2rem;
   font-size: 3rem;
+  text-align: right;
+  color: white;
 }
 
-.stylists img {
+.stylists {
   height: 450px;
-  width: 800px;
+  width: 1200px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elm090120btysalons002a-1600276228.jpg);
 }
 
 .inquiry h3 {
@@ -120,7 +126,7 @@ a {
   padding: 20px;
   top: 0;
   border-width: 10px 20px;
-  background-color: #DEB887;
+  background-color: #deb887;
 }
 
 .info p {

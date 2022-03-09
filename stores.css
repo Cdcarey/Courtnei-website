@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width:100%;
+  height:100px;
+  background-color:#DEB887;
+  border-top:5px solid;
+  border-top-style: solid;
+  border-top-color:#DEB887;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+  list-style: center;
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  display: inline;
+  border-width: 10px 20px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #DEB887;
+}
+
+.stores2 h1 {
+  text-align: center;
+}
+
+.stores2 li {
+  list-style-type: none;
+  margin: 0;
+}
+

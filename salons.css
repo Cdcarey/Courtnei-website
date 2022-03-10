@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .dropbtn {
   background-color: #deb887;
   color: white;
@@ -43,18 +44,4 @@ body {
 
 .dropdown:hover .dropbtn 
 {background-color: #FFA07A;
-}
-
-.info {
-  text-align: center;
-  margin: 0;
-  padding: 8px;
-  top: 0;
-  border-width: 10px 20px;
-  background-color: #DEB887;
-  background-color: #deb887;
-}
-
-.info p {
-  font-size: 1rem;
 }

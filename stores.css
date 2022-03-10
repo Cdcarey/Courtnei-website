@@ -1,7 +1,54 @@
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2.5rem;
+  margin-top: -3rem;
+  margin-bottom: -10rem;
+}
+
+.menu a {
+    color: #deb887;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: #deb887;
+}
+
+.menu p {
+  text-decoration: none;
+  color: #deb887;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.menu ul {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 .dropbtn {
@@ -56,7 +103,7 @@ body {
 }
 
 
-.info {
+/* .info {
   text-align: center;
   margin: 0;
   padding: 8px;
@@ -68,4 +115,4 @@ body {
 
 .info p {
   font-size: 1rem;
-}
+} */

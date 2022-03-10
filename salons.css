@@ -1,31 +1,46 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-.menu {
-    width:100%;
-    height:100px;
-    background-color:#DEB887;
-    border-top:5px solid;
-    border-top-style: solid;
-    border-top-color:#DEB887;
-  }
-  
-  .menu ul li{
-    list-style-type: none;
-    display: inline-flex;
-    float: right;
-    list-style: center;
-    margin: 0;
-    padding: 20px;
-    top: 0;
-    display: inline;
-    border-width: 10px 20px;
-    text-align: center;
-    font-size: 2rem;
-    background-color: #DEB887;
-  }
+.dropbtn {
+  background-color: #deb887;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+}
 
-  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #FFA07A;

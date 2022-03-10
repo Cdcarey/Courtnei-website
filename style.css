@@ -1,134 +1,136 @@
-/*welcome page design*/
+*welcome page design*/
 
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
 }
 
-.menu {
+.menu nav {
   width: 100%;
-  height: 100px;
-  background-color: #deb887;
-  border-top: 5px solid;
-  border-top-style: solid;
-  border-top-color: #deb887;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2.5rem;
 }
 
-.menu ul li {
-  list-style-type: none;
-  display: inline-flex;
-  float: right;
-  list-style: center;
-  margin: 0;
-  padding: 20px;
-  top: 0;
-  display: inline;
-  border-width: 10px 20px;
+.menu a {
+    color: #deb887;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+
+.menu a:hover {
+  color: #deb887;
+}
+
+.menu p {
+  text-decoration: none;
+  color: #deb887;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.menu ul {
   text-align: center;
-  font-size: 2rem;
-  background-color: #deb887;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 .welcome h1 {
-  padding: 2rem;
-  font-size: 7rem;
+  color: #deb887;
 }
 
-.welcome p {
-  padding: 2rem;
-  font-size: 3rem;
+.opening {
+  word-spacing: normal;
+  text-align: center;
+  line-height: 3rem;
   text-align: left;
+  margin: 20rem;
 }
 
-.salons p {
-  padding: 2rem;
-  font-size: 2rem;
-  text-align: right;
-  color: white;
+.opening p {
+  line-height: 6rem;
+  font-size: 6rem;
+  margin-top: -17rem;
+  text-align: center;
 }
 
-.salons h3 {
-  padding: 2rem;
-  font-size: 3rem;
-  text-align: right;
-  text-decoration: none;
-  color: white;
+
+  .options {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+      padding: 2px 16px;
+
+  }
+
+  .visual {
+    height: 100px;
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.salons {
-  height: 450px;
-  width: 1200px;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(https://th.bing.com/th/id/R.005e18581cb80e51cb842934b0859072?rik=SUbqIhNeRZypog&riu=http%3a%2f%2fwww.beautylounge3000.com%2fnew-site%2fimages%2fblog%2fsalon%2fblack-hair-salon.jpg&ehk=FoIf0v41ovqa1q%2bMhJV4obQty7GDvMos1xuo2ufHkUg%3d&risl=&pid=ImgRaw&r=0);
-}
 
-.stores1 h3 {
-  padding: 2rem;
-  text-align: left;
-  font-size: 3rem;
-  color: white;
-}
+  h3 {
+    margin: 0;
+  }
 
-.stores1 p {
-  padding: 2rem;
-  font-size: 2rem;
-  text-align: left;
-  color: white;
-}
-
-.stores1 {
-  height: 450px;
-  width: 1200px;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(https://th.bing.com/th/id/R.dcc624bf457ecdf8457f8c386c77b810?rik=gxvumc0PNY91Kw&riu=http%3a%2f%2fwww.slausonsupermallinc.com%2fmap-images-new%2fA-05.jpg&ehk=tJTHCNblNu08cMcHgHIHOKrrRgaC%2fQD7EVhjj5eKCjo%3d&risl=&pid=ImgRaw&r=0);
-}
-
-.stylists p {
-  padding: 2rem;
-  font-size: 2rem;
-  text-align: right;
-  color: white;
-}
-
-.stylists h3 {
-  padding: 2rem;
-  font-size: 3rem;
-  text-align: right;
-  color: white;
-}
-
-.stylists {
-  height: 450px;
-  width: 1200px;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elm090120btysalons002a-1600276228.jpg);
-}
-
-.inquiry h3 {
-  padding: 2rem;
-  text-align: left;
-  font-size: 3rem;
-}
-
-.inquiry p {
-  font-size: 2rem;
-  padding: 2rem;
+.welcome {
+  text-align: center;
+  margin: 25rem;
 }
 
 .info {
-  text-align: center;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   top: 0;
   border-width: 10px 20px;
   background-color: #deb887;
 }
 
-.info p {
+.info ul {
+  list-style-type: none;
+  display: flex;
   font-size: 1rem;
+  justify-content: space-around;
+}
+
+.info li a {
+  text-decoration: none;
+  color: black; 
+  margin-left: -15rem;
+  margin-right: 5rem;
+}
+
+.info label {
+  margin-left: -10rem;
 }

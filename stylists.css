@@ -75,3 +75,17 @@ body {
   margin: 5rem;
   font-size: 1.5rem;
 }
+
+.info {
+  text-align: center;
+  margin: 0;
+  padding: 8px;
+  top: 0;
+  border-width: 10px 20px;
+  background-color: #DEB887;
+  background-color: #deb887;
+}
+
+.info p {
+  font-size: 1rem;
+}

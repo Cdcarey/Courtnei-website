@@ -15,6 +15,8 @@ a {
   align-items: center;
   justify-content: space-evenly;
   line-height: 2.5rem;
+  margin-bottom: -5rem;
+  margin-top: -5rem;
 }
 
 .menu a {
@@ -58,10 +60,10 @@ a {
 }
 
 .bckgrnd {
-  background: url(https://images.squarespace-cdn.com/content/v1/5217b22fe4b0e22c06d62715/1425834446400-FSL824672IQO34DY4FBS/tumblr_n7gvs3e4ab1txa2r1o5_1280.jpg);
+  background-image:linear-gradient(rgba(155, 155, 165, 0.5), rgba(39, 39, 38, 0.5)), url(MainBraid.jpg);
   background-size: cover;
   background-position: center;
-  height: 175vh;  
+  height: 110vh;  
 }
 
 .opening {
@@ -69,13 +71,11 @@ a {
   text-align: center;
   line-height: 3rem;
   text-align: left;
-  margin: 20rem;  
 }
 
 .opening p {
   line-height: 6rem;
   font-size: 6rem;
-  margin-top: -17rem;
   text-align: center;
 }
 
@@ -84,8 +84,15 @@ a {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
-      padding: 2px 16px;
+    padding: 2px 16px;
+  }
 
+  .options p {
+    text-align: center;
+  }
+
+  .options h3 {
+    text-align: center; 
   }
 
   .visual {
@@ -96,7 +103,8 @@ a {
   .card {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 5rem;
+    margin-bottom: 3rem;
     justify-content: space-between;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -106,38 +114,39 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.cardsalon {
+  
+}
 
-  h3 {
+h3 {
     margin: 0;
   }
 
 .welcome {
   text-align: center;
-  margin: 25rem;
+  margin: 9rem;
+  font-size: 1.5rem;
+}
+
+.welcome h1 {
+  font-size: 5rem;
+}
+
+.welcome h2 {
+  font-size: 3rem;
+  margin-top: -2rem;
 }
 
 .info {
+  text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 8px;
   top: 0;
   border-width: 10px 20px;
+  background-color: #DEB887;
   background-color: #deb887;
 }
 
-.info ul {
-  list-style-type: none;
-  display: flex;
+.info p {
   font-size: 1rem;
-  justify-content: space-around;
-}
-
-.info li a {
-  text-decoration: none;
-  color: black; 
-  margin-left: -15rem;
-  margin-right: 5rem;
-}
-
-.info label {
-  margin-left: -10rem;
 }

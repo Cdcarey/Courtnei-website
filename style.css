@@ -1,4 +1,4 @@
-*welcome page design*/
+/*welcome page design*/
 
 body {
   padding: 0;
@@ -38,22 +38,30 @@ a {
   color: #deb887;
   padding: 1rem;
   font-size: 3rem;
+  font: bold;
 }
 
 .menu ul {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .menu li {
   list-style-type: none;
   display: inline-block;
+  margin-bottom: -20rem;
 }
 
 .welcome h1 {
   color: #deb887;
+}
+
+.bckgrnd {
+  background: url(https://images.squarespace-cdn.com/content/v1/5217b22fe4b0e22c06d62715/1425834446400-FSL824672IQO34DY4FBS/tumblr_n7gvs3e4ab1txa2r1o5_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 175vh;  
 }
 
 .opening {
@@ -61,7 +69,7 @@ a {
   text-align: center;
   line-height: 3rem;
   text-align: left;
-  margin: 20rem;
+  margin: 20rem;  
 }
 
 .opening p {
@@ -70,7 +78,6 @@ a {
   margin-top: -17rem;
   text-align: center;
 }
-
 
   .options {
     height: auto;

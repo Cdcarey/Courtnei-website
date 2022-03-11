@@ -121,6 +121,12 @@ a {
   margin-top: -2rem;
 }
 
+.stytitle {
+  text-align: center;
+  justify-content: center;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
 
 .dropdowncontainer body {
   padding: 0;
@@ -159,7 +165,6 @@ a {
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -173,9 +178,35 @@ a {
   justify-content: space-between;
   flex-direction: row;
   align-content: center;
-  width: 50%;
+  width: 55%;
   margin-top: 350px;
   margin-left: 375px;
+}
+
+section {
+  height: 86vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image-1 {
+  background-image: linear-gradient(
+      rgba(155, 155, 165, 0.5),
+      rgba(39, 39, 38, 0.5)
+    ), url(stores.png);
+}
+
+.image-2 {  
+  background-image: url(stylisttt.jpg);
+}
+
+.image-3 {background-image: linear-gradient(
+  rgba(223, 183, 209, 0.5),
+  rgba(39, 39, 38, 0.5)
+), url(stylistimg.jpg);
 }
 
 .info {

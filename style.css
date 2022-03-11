@@ -43,7 +43,6 @@ a {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .menu li {
@@ -53,7 +52,7 @@ a {
 
 .bckgrnd {
   background-image: linear-gradient(
-      rgba(155, 155, 165, 0.5),
+      rgba(234, 241, 241, 0.719),
       rgba(39, 39, 38, 0.5)
     ),
     url(MainBraid.jpg);
@@ -70,7 +69,7 @@ a {
   line-height: 6rem;
   font-size: 7.5rem;
   padding-top: 15%;
-  padding-left: 77%;
+  padding-left: 78%;
 }
 
 .options {
@@ -83,10 +82,16 @@ a {
 
 .options p {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .options h3 {
   text-align: center;
+  font-size: 1.7rem;
+}
+
+.options h3 > a {
+  color:#DEB887;
 }
 
 .card {
@@ -102,6 +107,10 @@ a {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   background-color: #deb887;
+}
+
+.options > div.card:hover > h3 > a {
+  color: black;
 }
 
 .welcome {
@@ -121,6 +130,24 @@ a {
   margin-top: -2rem;
 }
 
+.inquiry h3 {
+  font-size: 2rem;
+  text-align: center;
+  color:#DEB887;
+  font-weight: bold;
+}
+
+.inquiry p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.stytitle {
+  text-align: center;
+  justify-content: center;
+  padding-top: 12rem;
+  font-size: 2rem;
+}
 
 .dropdowncontainer body {
   padding: 0;
@@ -159,7 +186,6 @@ a {
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -173,9 +199,38 @@ a {
   justify-content: space-between;
   flex-direction: row;
   align-content: center;
-  width: 50%;
-  margin-top: 350px;
+  width: 55%;
+  margin-top: 175px;
   margin-left: 375px;
+}
+
+section {
+  height: 85.5vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image-1 {
+  background-image: linear-gradient(
+      rgba(155, 155, 165, 0.5),
+      rgba(39, 39, 38, 0.5)
+    ), url(stores.png);
+}
+
+.image-2 {  
+  background-image: linear-gradient(
+    rgba(155, 155, 165, 0.5),
+    rgba(39, 39, 38, 0.5)
+  ), url(stylisttt.jpg);
+}
+
+.image-3 {background-image: linear-gradient(
+  rgba(223, 183, 209, 0.5),
+  rgba(39, 39, 38, 0.5)
+), url(stylistimg.jpg);
 }
 
 .info {

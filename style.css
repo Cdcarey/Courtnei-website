@@ -43,7 +43,6 @@ a {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .menu li {
@@ -53,7 +52,7 @@ a {
 
 .bckgrnd {
   background-image: linear-gradient(
-      rgba(155, 155, 165, 0.5),
+      rgba(234, 241, 241, 0.719),
       rgba(39, 39, 38, 0.5)
     ),
     url(MainBraid.jpg);
@@ -70,7 +69,7 @@ a {
   line-height: 6rem;
   font-size: 7.5rem;
   padding-top: 15%;
-  padding-left: 77%;
+  padding-left: 78%;
 }
 
 .options {
@@ -83,10 +82,16 @@ a {
 
 .options p {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .options h3 {
   text-align: center;
+  font-size: 1.7rem;
+}
+
+.options h3 > a {
+  color:#DEB887;
 }
 
 .card {
@@ -102,6 +107,10 @@ a {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   background-color: #deb887;
+}
+
+.options > div.card:hover > h3 > a {
+  color: black;
 }
 
 .welcome {
@@ -121,10 +130,22 @@ a {
   margin-top: -2rem;
 }
 
+.inquiry h3 {
+  font-size: 2rem;
+  text-align: center;
+  color:#DEB887;
+  font-weight: bold;
+}
+
+.inquiry p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .stytitle {
   text-align: center;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 12rem;
   font-size: 2rem;
 }
 

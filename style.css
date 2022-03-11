@@ -204,7 +204,28 @@ a {
   margin-left: 375px;
 }
 
-section {
+section,
+div.image-1 {
+  height: 85.5vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section,
+div.image-2 {
+  height: 85.5vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section,
+div.image-3 {
   height: 85.5vh;
   width: 100%;
   background-position:center;

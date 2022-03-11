@@ -200,7 +200,10 @@ section {
 }
 
 .image-2 {  
-  background-image: url(stylisttt.jpg);
+  background-image: linear-gradient(
+    rgba(155, 155, 165, 0.5),
+    rgba(39, 39, 38, 0.5)
+  ), url(stylisttt.jpg);
 }
 
 .image-3 {background-image: linear-gradient(

@@ -7,9 +7,8 @@ a {
   text-decoration: none;
 }
 
-
 .menu nav {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -19,7 +18,7 @@ a {
 }
 
 .menu a {
-    color: #deb887;
+  color: #deb887;
 }
 
 .menu ul li a {
@@ -92,7 +91,7 @@ a {
 }
 
 .options h3 > a {
-  color:#DEB887;
+  color: #deb887;
 }
 
 .card {
@@ -134,7 +133,7 @@ a {
 .inquiry h3 {
   font-size: 2rem;
   text-align: center;
-  color:#DEB887;
+  color: #deb887;
   font-weight: bold;
 }
 
@@ -174,7 +173,7 @@ a {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -185,14 +184,16 @@ a {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn 
-{background-color: #FFA07A;
+.dropdown:hover .dropbtn {
+  background-color: #ffa07a;
 }
 
 .dropdowncontainer {
@@ -203,8 +204,8 @@ a {
 
 section,
 div.image-1 {
-  height: 81vh;
-  background-position:center;
+  height: 81.5vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -212,8 +213,8 @@ div.image-1 {
 
 section,
 div.image-2 {
-  height: 82vh;
-  background-position:center;
+  height: 81.5vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -222,7 +223,7 @@ div.image-2 {
 section,
 div.image-3 {
   height: 81.5vh;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -232,20 +233,24 @@ div.image-3 {
   background-image: linear-gradient(
       rgba(155, 155, 165, 0.5),
       rgba(39, 39, 38, 0.5)
-    ), url(stores.png);
+    ),
+    url(stores.png);
 }
 
-.image-2 {  
+.image-2 {
   background-image: linear-gradient(
-    rgba(155, 155, 165, 0.5),
-    rgba(39, 39, 38, 0.5)
-  ), url(stylisttt.jpg);
+      rgba(155, 155, 165, 0.5),
+      rgba(39, 39, 38, 0.5)
+    ),
+    url(stylisttt.jpg);
 }
 
-.image-3 {background-image: linear-gradient(
-  rgba(223, 183, 209, 0.5),
-  rgba(39, 39, 38, 0.5)
-), url(stylistimg.jpg);
+.image-3 {
+  background-image: linear-gradient(
+      rgba(223, 183, 209, 0.5),
+      rgba(39, 39, 38, 0.5)
+    ),
+    url(stylistimg.jpg);
 }
 
 .info {
@@ -254,7 +259,7 @@ div.image-3 {
   padding: 8px;
   top: 0;
   border-width: 10px 20px;
-  background-color: #DEB887;
+  background-color: #deb887;
   background-color: #deb887;
 }
 
